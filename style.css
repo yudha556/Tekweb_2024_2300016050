@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0D47A1, #42A5F5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    overflow: auto; /* Allow scrolling if content overflows */
+  }
+  
+.container {
+    background-color: linear-gradient(135deg, #0D47A1, #42A5F5);
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px;
+    height: 600px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    box-shadow: -6px 7px 24px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: -6px 7px 24px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 7px 24px -5px rgba(0,0,0,0.75);
+}
+
+img {
+    width: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Anta";
+}
+
+p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Exo 2";
+}
+
+.project, .contact {
+    margin-top: 20px;
+    font-family: "Anta";
+    font-size: 15px;
+}
+
+.project ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.project li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.project li a:hover {
+    color: #ffeb3b;
+}
+
+
+.contact a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin: 5px 0;
+    font-family: "Exo 2";
+}
+
+.contact a:hover {
+    color: #ffeb3b;
+}
