@@ -5,15 +5,14 @@ Repository ini berisi kumpulan tugas praktikum untuk mata kuliah Teknologi Web. 
 
 ## Struktur Folder
 - **/Praktikum_1**: Pengembangan Halaman HTML dan Publikasi di Github Page
-- **/Praktikum_2**: HTML dan CSS
 
 
 # Daftar Tugas 
 | Pertemuan | Deskripsi Tugas        | Status        |
 |--------|------------------------|---------------|
 | 1 - 2     | [ Membuat halaman HTML sederhana dan mempublikasikannya ke halaman Github.]  | ✅ Selesai    |
-| 3 - 4      | [Membuat halaman web responsif dengan memanfaatkan HTML dengan styling CSS.]  | 🔄  Selesai   |
-| 5 - 6      | [Membuat script JavaScript sederhana untuk mengubah tampilan halaman.]  | 🔄 Dalam proses |
+| 3 - 4      | [Membuat halaman web responsif dengan memanfaatkan HTML dengan styling CSS.]  | 🔄  Dalam Proses   |
+| 5 - 6      | [Membuat script JavaScript sederhana untuk mengubah tampilan halaman.]  | ..... |
 | 8  | [ujian tengah Semester] | ... |
 | 7 - 9    | [Membuat layout responsif menggunakan Bootstrap atau Tailwind]  | ...           |
 | 10 - 13 | [Membuat aplikasi sederhana dengan framework yang dipilih] | ...  |
