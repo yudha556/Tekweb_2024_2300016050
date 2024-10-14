@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf6f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    padding: 10px;
+    margin-top: 10px;
+
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #007BFF;
+  }
+  
+  .section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.33);
+-webkit-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.33);
+  }
+  
+  .section h2 {
+    color: #007BFF;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects li {
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    border-left: #007BFF 5px solid;
+    border-radius: 4px;
+    margin: 7px;
+    background-color: #f1f1f1df;
+  }
+  
+  .projects a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .contact a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .contact p {
+    margin: 10px 0;
+  }
+  
+  .section .projects {
+    margin-top: 20px;
+    padding: 20px;
+  }
