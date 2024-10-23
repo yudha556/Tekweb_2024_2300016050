@@ -10,15 +10,17 @@ gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_1/index.h
 - **/Praktikum_2**: HTML dan CSS <br>
 gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_2/index.html
 
-- **/Praktikum_3: JavaScript Dasar
+- **/Praktikum_3**: JavaScript Dasar
 gh pages = ...
+
+- **/Praktikum_4**: ...
 
 
 # Daftar Tugas 
 | Pertemuan | Deskripsi Tugas        | Status        |
 |--------|------------------------|---------------|
 | 1 - 2     | [ Membuat halaman HTML sederhana dan mempublikasikannya ke halaman Github.]  | ✅ Selesai    |
-| 3 - 4      | [Membuat halaman web responsif dengan memanfaatkan HTML dengan styling CSS.]  | 🔄  Selesai   |
+| 3 - 4      | [Membuat halaman web responsif dengan memanfaatkan HTML dengan styling CSS.]  | ✅ Selesai    |
 | 5 - 6      | [Membuat script JavaScript sederhana untuk mengubah tampilan halaman.]  | 🔄 Dalam proses |
 | 8  | [ujian tengah Semester] | ... |
 | 7 - 9    | [Membuat layout responsif menggunakan Bootstrap atau Tailwind]  | ...           |
