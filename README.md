@@ -13,7 +13,7 @@ Repository ini berisi kumpulan tugas praktikum untuk mata kuliah Teknologi Web. 
 | Pertemuan | Deskripsi Tugas        | Status        |
 |--------|------------------------|---------------|
 | 1 - 2     | [ Membuat halaman HTML sederhana dan mempublikasikannya ke halaman Github.]  | ✅ Selesai    |
-| 3 - 4      | [Membuat halaman web responsif dengan memanfaatkan HTML dengan styling CSS.]  | 🔄  Dalam Proses   |
+| 3 - 4      | [Membuat halaman web responsif dengan memanfaatkan HTML dengan styling CSS.]  |✅ Selesai  |
 | 5 - 6      | [Membuat script JavaScript sederhana untuk mengubah tampilan halaman.]  | 🔄  Dalam Proses |
 | 8  | [ujian tengah Semester] | ... |
 | 7 - 9    | [Membuat layout responsif menggunakan Bootstrap atau Tailwind]  | ...           |
