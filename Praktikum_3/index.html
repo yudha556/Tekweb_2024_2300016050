@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praktikum 3 </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1 id="judul">Tugas Praktikum_3</h1>
+        <button id="tombol">ganti warna</button>
+    </div>
+    <div class="controls">
+        <label for="fontSizeSlider">Font Size: </label>
+        <input type="range" id="fontSizeSlider" min="8" max="40" value="16">
+        <span id="sizeValue">16px</span>
+    </div>
+    <div class="theme-switch">
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+        <span>Dark Mode</span>
+    </div>
+    <div class="font-control">
+        <label for="fontStyleSelect">Font Style: </label>
+        <select id="fontStyleSelect">
+            <option value="sans-serif">sans-serif</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Helvetica">Helvetica</option>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
