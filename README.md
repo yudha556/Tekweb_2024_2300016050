@@ -10,7 +10,7 @@ gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_1/index.h
 - **/Praktikum_2**: HTML dan CSS <br>
 gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_2/index.html
 
-- **/Praktikum_3: JavaScript Dasar <br>
+- **/Praktikum_3: JavaScript Dasar
 gh pages = ...
 
 
