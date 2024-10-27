@@ -5,15 +5,16 @@ Repository ini berisi kumpulan tugas praktikum untuk mata kuliah Teknologi Web. 
 
 ## Struktur Folder
 - **/Praktikum_1**: Pengembangan Halaman HTML dan Publikasi di Github Page <br>
-gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_1/index.html
+***gh pages*** = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_1/index.html
 
 - **/Praktikum_2**: HTML dan CSS <br>
-gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_2/index.html
+***gh pages*** = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_2/index.html
 
 - **/Praktikum_3**: JavaScript Dasar <br>
-gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_3/index.html
+***gh pages*** = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_3/index.html
 
-- **/Praktikum_4**: ...
+- **/Praktikum_4**: Mid Test <br>
+***gh repo*** = https://github.com/SILab-Uad/web-technology-mid-test-yudha556
 
 
 # Daftar Tugas 
