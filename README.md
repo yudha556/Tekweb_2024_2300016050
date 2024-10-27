@@ -11,7 +11,7 @@ gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_1/index.h
 gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_2/index.html
 
 - **/Praktikum_3**: JavaScript Dasar
-gh pages = ...
+gh pages = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_3/index.html
 
 - **/Praktikum_4**: ...
 
