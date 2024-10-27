@@ -3,33 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praktikum 3 </title>
-    <link rel="stylesheet" href="style.css">
+    <title>To-Do App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Metal+Mania&family=Poetsen+One&family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 id="judul">Tugas Praktikum_3</h1>
-        <button id="tombol">ganti warna</button>
+    <div class="container" id="container">
+        <h2>My To-Do List</h2>
+        <div class="to-do" id="to-do">
+            <div class="input-container">
+                <input type="text" id="newTask" placeholder="Add a new Task....">
+                <button onclick="addTask()" id="add">Add</button>
+            </div>
+            <ul id="taskList">
+                 <!-- li ada di bagian script.js -->
+            </ul>
+            <div class="controls">
+                <label for="fontSizeSlider">Font Size: </label>
+                <span id="sizeValue">16px</span>
+                <input type="range" id="fontSizeSlider" min="8" max="40" value="16">
+                
+            </div>
+            <div class="section warna">
+                <label for="backgroundColor">Ganti Warna</label>
+                <input class="bgcolor" type="color" id="color">
+            </div>
+            <div class="section font-control">
+                <label for="fontStyleSelect">Font Style: </label>
+                <select id="fontStyleSelect">
+                    <option value="sans-serif">sans-serif</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                    <option value="Helvetica">Helvetica</option>
+                    <option value="Metal Mania">Metal Mania</option>
+                    <option value="Tiny5">Tiny5</option>
+                    <option value="Poetsen One">Poetsen One</option>
+                </select>
+            </div>
+            <div class="section theme-switch">
+                <span>Dark Mode</span>
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
     </div>
-    <div class="controls">
-        <label for="fontSizeSlider">Font Size: </label>
-        <input type="range" id="fontSizeSlider" min="8" max="40" value="16">
-        <span id="sizeValue">16px</span>
-    </div>
-    <div class="theme-switch">
-        <label class="switch">
-            <input type="checkbox" id="darkModeToggle">
-            <span class="slider round"></span>
-        </label>
-        <span>Dark Mode</span>
-    </div>
-    <div class="font-control">
-        <label for="fontStyleSelect">Font Style: </label>
-        <select id="fontStyleSelect">
-            <option value="sans-serif">sans-serif</option>
-            <option value="Times New Roman">Times New Roman</option>
-            <option value="Helvetica">Helvetica</option>
-    </div>
-    <script src="script.js"></script>
+    <script src="./script.js">
+    </script>
 </body>
 </html>
