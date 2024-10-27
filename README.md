@@ -13,7 +13,7 @@ Repository ini berisi kumpulan tugas praktikum untuk mata kuliah Teknologi Web. 
 - **/Praktikum_3**: JavaScript Dasar <br>
 ***gh pages*** = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_3/index.html
 
-- **/Praktikum_4**: Mid Test <br>
+- **/Praktikum_4**: web-technology-mid-test-yudha556 <br>
 ***gh repo*** = https://github.com/SILab-Uad/web-technology-mid-test-yudha556
 
 
