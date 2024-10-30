@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./css/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" rel="stylesheet">
+
     <title>Praktikum 4</title>
 </head>
 <body class="bg-white font-poppins">
@@ -14,7 +16,7 @@
                 <img src="./Asset/icon_logo.png" alt="logo" class="h-9 w-9 mr-4">
                 <p class="font-semibold text-lg">Remind<span class="text-blue-400">me</span></p>
             </div>
-            <div class="menu hidden md:flex mr-96 text-lg ">
+            <div class="menu md:flex mr-96 text-lg ">
                 <ul class="flex space-x-14 text-black font-semibold justify-start mr-96">
                     <li><a href="#" class="hover:text-blue-700 transition">Home</a></li>
                     <li><a href="#" class="hover:text-blue-700 transition">Features</a></li>
@@ -29,9 +31,9 @@
     
     <section class="hero ">
         <div class="container flex h-[850px] ml-[100px]">
-            <div class="hero-text flex flex-col my-auto w-[34%]  mr-[150px]">
-                <h1 class="font-semibold text-7xl leading-tight mb-6">Manage  Schedule and Task Easy</h1>
-                <p class="my-[20px] text-gray-700">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
+            <div class="hero-text flex flex-col my-auto w-[34%]  mr-[150px]" data-aos="">
+                <h1 class="font-semibold text-7xl leading-tight mb-6" >Manage  Schedule and Task Easy</h1>
+                <p class="my-[20px] text-gray-700 font-lg">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
                 <button class="buton-app  border-blue-700 bg-blue-700 py-4 px-9 rounded-full w-[250px] my-[20px] text-white">
                     Download App
                 </button>
@@ -43,50 +45,50 @@
     </section>
 
     <section class="features">
-        <div class="container">
-            <div class="better-Deadline">
-                <img src="./Asset/icon_calender.png" alt="better-Deadline">
-                <h3>Set a better deadline tasks</h3>
-                <p>You can make your duty deadlines better and more orderly</p>
+        <div class="container flex justify-center w-[100%] my-[50px]  space-x-32 p-5">
+            <div class="better-Deadline w-[350px]">
+                <img src="./Asset/icon_calender.png" alt="better-Deadline" class="w-20 mb-[50px]">
+                <h3 class="font-bold text-2xl my-[30px]">Set a better deadline tasks</h3>
+                <p class="text-gray-600 text-lg">You can make your duty deadlines better and more orderly</p>
             </div>
-            <div class="manage-task">
-                <img src="./Asset/icon_layer.png" alt="manage-task">
-                <h3>Manage the tasks so easily</h3>
-                <p>You can manage the deadlines and the schedule becomes easy</p>
+            <div class="manage-task w-[350px]">
+                <img src="./Asset/icon_layer.png" alt="manage-task" class="w-20 mb-[50px]">
+                <h3 class="font-bold text-2xl my-[30px]">Manage the tasks so easily</h3>
+                <p class="text-gray-600 text-lg">You can manage the deadlines and the schedule becomes easy</p>
             </div>
-            <div class="notification">
-                <img src="./Asset/icon_notification.png" alt="notification">
-                <h3>Wouldn't miss notifications</h3>
-                <p>Of course you will always get the tasks and schedule notifications</p>
+            <div class="notification w-[350px]">
+                <img src="./Asset/icon_notification.png" alt="notification" class="w-20 mb-[50px]">
+                <h3 class="font-bold text-2xl my-[30px]">Wouldn't miss notifications</h3>
+                <p class="text-gray-600 text-lg">Of course you will always get the tasks and schedule notifications</p>
             </div>
         </div>
     </section>
 
     <section class="advantage">
-        <div class="container">
-            <div class="why-1">
+        <div class="container flex-col ">
+            <div class="why-1 flex">
                 <div class="image">
-                    <img src="" alt="image">
+                    <img src="./Asset/img_preview2.png" alt="image">
                 </div>
                 <div class="text">
                     <h2>Set up task and schedule with a best features</h2>
                     <p>The best feature makes you better, with the latest technology to meet your needs. Of course, with such features as organizing schedules and leading assignments, it will make you easier, So get the application now !</p>
                 </div>
             </div>
-            <div class="why-2">
+            <div class="why-2 flex">
                 <div class="text">
                     <h2>Get the highest priority application notification</h2>
                     <p>The best feature makes you better, with the latest technology to meet your needs. Of course, with such features as organizing schedules and leading assignments, it will make you easier, So get the application now !</p>
                 </div>
                 <div class="image">
-                    <img src="" alt="image">
+                    <img src="./Asset/img_preview1.png" alt="image">
                 </div>
             </div>
         </div>
     </section>
 
     <section class="user-pagging">
-        <div class="container" style="background-image: url(./Asset/img_hiasan.png);">
+        <div class="container">
             <div class="text">
                 <p>Download an app now and the various benefits you will get immediately</p>
                 <div class="button">
@@ -104,12 +106,12 @@
     <section class="Testimonial">
         <div class="container">
             <div class="Testimonial-img">
-                <img src="./Asset/img_preview3.png" alt="Testimonial">
+                <img src="" alt="Testimonial">
             </div>
             <div class="Testimonial-text">
                 <h2>What do they think</h2>
                 <div class="profile">
-                    <img src="./Asset/img_profil_testi.png" alt="profile">
+                    <img src="" alt="profile">
                     <h4>Samantha Sench</h4>
                     <p>Student at University</p>
                 </div>
@@ -127,7 +129,7 @@
             <div class="remindme">
                 <div class="logo-contrainer">
                     <div class="logo">
-                        <img src="./Asset/icon_logo.png" alt="logo">
+                        <img src="" alt="logo">
                     </div>
                     <h2>Remind<span>me</span></h2>
                 </div>
@@ -159,6 +161,10 @@
             </div>
         </div>
     </section>
-    
+
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
 </body>
 </html>
