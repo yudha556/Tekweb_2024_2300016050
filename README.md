@@ -14,9 +14,9 @@ Repository ini berisi kumpulan tugas praktikum untuk mata kuliah Teknologi Web. 
 ***gh pages*** = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_3/index.html
 
 - **/Praktikum_4**: Mid Test <br>
-***gh*** =
+***gh Pages*** = https://yudha556.github.io/Tekweb_2024_2300016050/web-technology-mid-test-yudha556/index.html
 
--**/Praktikum_5**: Tailwind dan Responsi <br>
+- **/Praktikum_5**: Tailwind dan Responsi <br>
 ***gh Pages*** = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_5/index.html
 
 
