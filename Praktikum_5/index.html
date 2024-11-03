@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./css/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <title>Praktikum 4</title>
+</head>
+
+<body class="bg-customWhite font-poppins overflow-x-hidden w-screen min-h-screen items-center overflow-y-auto">
+    <nav class="w-full sticky h-[80px] top-0 z-0 flex justify-between items-center xl:mx-auto sm:[90px]  md:px-10 bg-customWhite">
+        <div class="logo flex items-center ml-[20px] xl:ml-[40px]">
+            <img src="./Asset/Logo.svg" alt="logo" class="h-11 w-11 ">
+            <p class="font-medium text-xl ml-[10px]">Remind<span class="text-customBlue">me</span></p>
+        </div>
+
+        <div class="md:hidden flex flex-col items-center  rounded-sm border-2 border-customBlue py-2 px-2 hover:bg-customGray transition mr-[50px]">
+            <button id="menu-toggle" class="focus:outline-none hover:bg-customGray rounded-full transition">
+                <svg class="w-5 h-5 text-customBlue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="menu hidden md:flex text-xl justify-between">
+            <ul class="flex space-x-16 text-black font-normal justify-start mr-[20rem]">
+                <li><a onclick="activateButton(this)" class="hover:text-customBlue transition" id="satu">Home</a></li>
+                <li><a onclick="activateButton(this)" class="hover:text-customBlue transition" id="dua">Features</a></li>
+                <li><a onclick="activateButton(this)" class="hover:text-customBlue transititon" id="tiga">About Us</a></li>
+            </ul>
+        </div>
+        <button href="advantage" class="hidden md:block rounded-full py-3 px-10 text-customBlue border-customBlue border-2 hover:bg-customBlue hover:text-customWhite transition text-xl mr-[90px]">
+            About App
+        </button>
+    </nav>
+
+    <div id="mobile-menu" class="hidden  md:hidden bg-customWhite w-full h-screen fixed top-0 left-0 z-40  flex-col flex items-center space-y-6 pt-20">
+        <a href="#Home" class="menu-item text-black font-medium text-xl hover:text-customBlue transition">Home</a>
+        <a href="#Features" class="menu-item text-black font-medium text-xl hover:text-customBlue transition">Features</a>
+        <a href="#testimonial" class="menu-item text-black font-medium text-xl hover:text-customBlue transition">About Us</a>
+        <button href="advantage" class="menu-item rounded-full py-4 px-14 text-customBlue border-customBlue border-2 hover:bg-customBlue hover:text-customWhite transition text-xl">
+            About App
+        </button>
+    </div>
+
+    <!-- hero Section -->
+    <section class="w-full px-4 md:px-8 lg:px-12 xl:px-16 flex flex-col lg:flex-row items-center justify-center  lg:gap-x-36 xl:mt-[-50px] xl:mb-[100px] " id="Home">
+        <div class="flex flex-col w-[90%] xl:w-[90%] lg:w-1/2 space-y-10 mt-14 lg:mt-0 text-left xl:ml-[20px] ">
+            <h1 class="font-semibold text-4xl sm:text-5xl lg:text-4xl xl:text-7xl leading-snug lg:leading-tight" style="line-height: 1.1;">
+                Manage Schedule and Task Easily
+            </h1>
+            <p class="text-customGray text-lg sm:text-xl lg:text-2xl leading-relaxed lg:leading-normal" style="line-height: 1.5;">
+                Create and organize schedules and task deadlines to improve efficiency. Never miss an activity or task deadline again.
+            </p>
+            <button class="bg-customBlue text-lg w-[60%] xl:text-2xl py-4 xl:py-5 rounded-full text-customWhite">
+                Download App
+            </button>
+        </div>
+        <div class="w-[110%] h-auto  max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl xl:mr-[-90px] overflow-hidden mt-10 lg:mt-0">
+            <img src="./Asset/Hero_Image.svg" class="w-full h-auto xl:rounded-bl-[120px]" alt="hero-image">
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Features Section benerin lagi-->
+    <section class="features mt-[100px] flex flex-col xl:flex-row justify-center mx-auto w-[85%] xl:w-[90%]  space-y-9 items-center xl:space-x-20 mb-[150px]" id="Features">
+        <div class="better-Deadline items-center text-center justify-center xl:text-left xl:mt-[50px] mx-auto">
+            <div class="schedule rounded-full bg-customBg w-[100px] h-[100px] flex justify-center items-center mb-[50px]">
+                <img src="./Asset/uim_schedule.svg" alt="better-Deadline" class="w-[60px]  items-center justify-center">
+            </div>
+            <h3 class="font-bold text-2xl my-[30px]">Set a better deadline tasks</h3>
+            <p class="text-gray-600 text-xl text-customGray my-[30px]">You can make your duty deadlines better and more
+                orderly</p>
+        </div>
+        <div class="manage-task items-center text-center justify-center xl:text-left">
+            <div class="uim rounded-full bg-customBg w-[100px] h-[100px] flex justify-center items-center mb-[50px]">
+                <img src="./Asset/uim_layer-group.svg" alt="manage-task" class="w-[60px]  items-center justify-center ">
+            </div>
+            <h3 class="font-bold text-2xl my-[30px]">Manage the tasks so easily</h3>
+            <p class="text-gray-600 text-xl text-customGray my-[30px]">You can manage the deadlines and the schedule
+                becomes easy</p>
+        </div>
+        <div class="notification items-center mx-auto text-center justify-center xl:text-left">
+            <div class="notification_img rounded-full bg-customBg w-[100px] h-[100px] flex justify-center items-center mb-[50px] ">
+                <img src="./Asset/ri_notification-fill.svg" alt="notification" class="w-[60px]  items-center justify-center ">
+            </div>
+            <h3 class="font-bold text-2xl my-[30px]">Wouldn't miss notifications</h3>
+            <p class="text-gray-600 text-xl text-customGray my-[30px]">Of course you will always get the tasks and
+                schedule notifications</p>
+        </div>
+    </section>
+
+    <h1 class="font-semibold text-4xl sm:text-5xl lg:text-4xl xl:text-7xl leading-snug lg:leading-tight" style="line-height: 1.;">
+    <!-- Advantage Section Benerin lagi -->
+    <section class=" advantage flex-col w-screen mb-[100px] space-y-11" id="advantage">
+        <div class="why-1 flex flex-col xl:flex-row w-full h-full xl:space-x-28 justify-center items-center ">
+            <div class="image w-full overflow-hidden xl:rounded-r-[90px]">
+                <img src="./Asset/Review_2.svg" alt="image" class="w-full h-full">
+            </div>
+            <div class="text flex-col mx-auto ml-[30px] xl:ml-0 ">
+                <h2 class="xl:text-5xl text-2xl font-semibold font-poppins mt-[60px] xl:mt-0 mr-[40px]">Set up task and schedule with a best features</h2>
+                <p class="text-customGray text-lg mx:text-xl mt-14 mr-[40px]">The best feature makes you better, with the latest technology
+                    to meet your needs. Of course, with
+                    such features as organizing schedules and leading assignments, it will make you easier, So get
+                    the application now !</p>
+            </div>
+        </div>
+        <div class="why-2 flex flex-col xl:flex-row-reverse w-full h-full xl:space-x-28 justify-center items-center">
+            <div class="image w-full  xl:rounded-l-[90px] overflow-hidden ">
+                <img src="./Asset/Review_3.svg" alt="image" class="w-full">
+            </div>
+            <div class="text flex-col mx-auto ml-[30px] xl:ml-0 ">
+                <h2 class="xl:text-5xl text-2xl font-semibold font-poppins mt-[60px] xl:mt-0 mr-[40px]">Get the highest priority application notification</h2>
+                <p class="text-customGray text-lg mx:text-xl mt-14 mr-[40px]">The best feature makes you better, with the latest technology
+                    to meet your needs. Of course, with
+                    such features as organizing schedules and leading assignments, it will make you easier, So get
+                    the application now !</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- User Pagging Section benerin lagi -->
+    <section class="flex flex-col items-center justify-center w-full h-[400px] xl:h-[600px] rounded-[40px] mx-auto mt-[70px] xl:mt-[200px]" style="background-image: url(./Asset/background.svg); width: 90%; background-size: cover; background-position: center;">
+        <div class="w-[70%] mx-auto text-center  xl:space-x-20 space-y-6 xl:space-y-0">
+            <h1 class="xl:text-5xl text-lg font-semibold text-customWhite xl:mb-[120px] tracking-wider">Download an app now and the various benefits you will get immediately </h1>
+            <button class="text-[10px] xl:text-lg xl:px-12 py-3 px-12 xl:py-5  bg-customWhite font-semibold text-customBlack rounded-full  hover:bg-customGray transition">Download App</button>
+            <button class="text-[10px] xl:text-lg xl:px-16 px-16 py-3 xl:py-5 border-customWhite border border-white rounded-full text-customWhite hover:bg-customWhite hover:text-customBlue transition">About App</button>
+        </div>
+    </section>
+    
+
+    <!-- Testimonial Section Benrin Lagi-->
+    <section class="Testimonial flex mt-[30px] xl:mt-[200px] w-full h-full justify-start items-center mx-auto  space-x-240" id="testimonial">
+        <img src="./Asset/testimonial.svg" alt="Testimonial" class="hidden md:block w-full h-auto rounded-r-[100px]">
+        <div class="Testimonial-text w-full text-xl xl:gap-8 xl:p-20 p-8">
+            <h2 class="text-2xl xl:text-5xl font-semibold mb-16 ">What do they think</h2>
+            <div class="profile flex space-x-6 xl:space-x-9 xl:my-9 xl:mt-9 mb-9">
+                <img src="./Asset/Profile.svg" alt="profile" class="w-[70px] h-[90px] xl:w-[90px] xl:h-[90px]">
+                <div class="profile-text flex-col space-y-3 mt-3">
+                    <h4 class="font-semibold text-xs  xl:text-xl mb-5">Samantha Sench</h4>
+                    <p class="text-customGray text-xs xl:text-xl">Student at University</p>
+                </div>
+            </div>
+            <p class="text-sm xl:text-2xl tracking-widest font-normal">“ Hi, it's Samantha. After using it made me a lot of benefits, starting with convenience of setting a
+                deadline of tasks and schedule after that the app is very simple using. “</p>
+            <div class="slider flex space-x-5 mx-auto ml-[100px] xl:mx-0 xl:space-x-9 mt-12 w-9">
+                <img src="./Asset/la_arrow-left.svg" alt="left" href="" class="hover:bg-customGray rounded-full transition">
+                <img src="./Asset/la_arrow-right.svg" alt="right" href="" class="hover:bg-customGray rounded-full transition">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="flex flex-col xl:flex-row w-full  h-[350px] mt-[10px] xl:mt-[120px] justify-start grid-cols-1 xl:gap-8 xl:ml-[30px]  xl:space-x-28  ">
+        <div class="remindme flex-col xl:w-[30%] m-8">
+            <div class="logo-contrainer flex items-center mb-[20px] ">
+                <img src="./Asset/Logo.svg" alt="logo" class="w-[50px] h-[50px] xl:h-[100px] xl:w-[100px]">
+                <h2 class="text-xl xl:text-2xl font-semibold xl:ml-[20px] xl:mt-[-10px]">Remind<span class="text-customBlue">me</span></h2>
+            </div>
+            <p class="text-lg xl:text-xl tracking-wider text-customGray mt-[10px]" style="line-height: 1.5;">Task deadlines and scheduling applications with various benefits and advantages</p>
+        </div>
+        <div class="flex space-x-9 xl:space-x-28 mt-[-50px] xl:mt-0  text-left ml-8 ">
+            <div class="sitemap text-customGray text-xl mt-[50px] justify-center items-center ">
+                <h3 class="text-xl xl:text-2xl text-customBlack font-semibold mb-[20px]">Sitemap</h3>
+            <ul class="list-disc marker:text-customBlue space-y-2 xl:space-y-3 xl:mt-[50px] text-lg xl:text-xl ml-[20px]">
+                <li class="hover:text-customBlue transition"><a href="">Home</a></li>
+                <li class="hover:text-customBlue transition"><a href="">Features</a></li>
+                <li class="hover:text-customBlue transition"><a href="">About Us</a></li>
+            </ul>
+            </div>
+            <div class="Advantages text-customGray text-xl mt-[50px]">
+                <h3 class="text-xl xl:text-2xl font-semibold text-customBlack mb-[20px]">Advantages</h3>
+                <ul class="list-disc marker:text-customBlue space-y-2 xl:space-y-3 xl:mt-[50px] text-lg xl:text-xl ml-[20px]">
+                    <li class="hover:text-customBlue transition"><a href="">Set Task Better</a></li>
+                    <li class="hover:text-customBlue transition"><a href="">Easy Manage</a></li>
+                    <li class="hover:text-customBlue transition"><a href="">Get Notification</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="follow-us mt-8 m-8 xl:mt-[50px]">    
+            <h3 class="text-xl ml-0 xl:text-2xl text-customBlack font-semibold xl:mb-[40px] items-start justify-start">Follow Us</h3>
+            <div class="logo flex space-x-5 xl:space-x-8 w-5 h-5 xl:w-9 xl:h-9 mt-3  xl:mt-[50px] mb-[90px] xl:mb-0">
+                <img src="./Asset/uim_facebook-f.svg" alt="Facebook" class="hover:bg-customGray rounded-full transition">
+                <img src="./Asset/uim_twitter.svg" alt="Twiter" class="hover:bg-customGray rounded-full transition">
+                <img src="./Asset/uim_linkedin-alt.svg" alt="Linkedin" class="hover:bg-customGray rounded-full transition">
+            </div>
+        </div>
+    </footer>
+    <script src="./srcipt.js"></script>
+</body>
+
+</html>

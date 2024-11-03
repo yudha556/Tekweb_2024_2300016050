@@ -1,0 +1,20 @@
+@media (max-width: 640px) {
+    .features .better-Deadline, .manage-task, .schedule  {
+        margin: 0 auto;
+    }
+    .features .manage-task .uim {
+        margin: 0 auto;
+    }
+
+    .features .notification .notification_img {
+        margin: 0 auto;
+    }
+}
+
+.menu-button {
+    /* Default text color */
+    color: black;
+}
+.menu-button.active {
+    color: text-customBlue; 
+}
