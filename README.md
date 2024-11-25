@@ -19,6 +19,9 @@ Repository ini berisi kumpulan tugas praktikum untuk mata kuliah Teknologi Web. 
 - **/Praktikum_5**: Tailwind dan Responsi <br>
 ***gh Pages*** = https://yudha556.github.io/Tekweb_2024_2300016050/Praktikum_5/index.html
 
+- **/Praktikum_6**: Belajar React <br>
+***gh Pages*** = -
+
 
 # Daftar Tugas 
 | Pertemuan | Deskripsi Tugas        | Status        |
@@ -26,9 +29,9 @@ Repository ini berisi kumpulan tugas praktikum untuk mata kuliah Teknologi Web. 
 | 1 - 2     | [ Membuat halaman HTML sederhana dan mempublikasikannya ke halaman Github.]  | ✅ Selesai    |
 | 3 - 4      | [Membuat halaman web responsif dengan memanfaatkan HTML dengan styling CSS.]  | ✅ Selesai    |
 | 5 - 6      | [Membuat script JavaScript sederhana untuk mengubah tampilan halaman.]  | ✅ Selesai |
-| 8  | [ujian tengah Semester] | 🔄 Dalam proses |
-| 7 - 9    | [Membuat layout responsif menggunakan Bootstrap atau Tailwind]  | ...           |
-| 10 - 13 | [Membuat aplikasi sederhana dengan framework yang dipilih] | ...  |
+| 8  | [ujian tengah Semester] | ✅ Selesai |
+| 7 - 9    | [Membuat layout responsif menggunakan Bootstrap atau Tailwind]  | ✅ Selesai   |
+| 10 - 13 | [Membuat aplikasi sederhana dengan framework yang dipilih] | 🔄 Dalam Proses  |
 | 14 - 15 | [Membuat aplikasi sederhana yang menampilkan data dari JSON atau XML]  | ... |
 | 16 | [Presentasi Project Akhir] | ... |
 
